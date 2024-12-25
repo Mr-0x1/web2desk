@@ -14,8 +14,8 @@ This project is an Electron application that includes functionality for licensin
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Mr-0x1/exemple.git
-   cd exemple
+   git clone https://github.com/Mr-0x1/web2desk.git
+   cd web2desk
    ```
 
 2. Install dependencies:
