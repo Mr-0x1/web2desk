@@ -1,0 +1,36 @@
+{
+  "name": "exemple",
+  "version": "1.0.0",
+  "description": "exempleexempleexempleexempleexempleexempleexemple",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --mac"
+  },
+  "author": "Mr_0x1",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^25.9.8",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.Mr_0x1.Mr_0x1",
+    "productName": "Mr_0x1",
+    "copyright": "Copyright © 2024",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "assets/**/*",
+      "license.txt"
+    ],
+    "mac": {
+      "icon": "assets/icon.icns",  // macOS icon
+      "target": [
+        "dmg",    // You can specify multiple targets like 'dmg', 'zip', or 'pkg'
+        "zip"
+      ]
+    }
+  }
+}
